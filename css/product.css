@@ -1,0 +1,70 @@
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7f7f7;
+    min-width: 120px;
+    z-index: 1;
+  }
+  
+  /* Style links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:#13915f;}
+
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.644);
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+  cursor: pointer;
+}
+
+  .container-product{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 50px auto;
+    width: 100%;
+    text-align:left;
+    background: transparent;
+
+  }
+  .container-drop{
+    width:200px;
+    background: aliceblue;
+    height:auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    font-size: 14px;
+  }
+  @media screen and (max-width:500px){
+    .container-drop{
+      width: 90%;
+      margin: 10px auto;
+
+    }
+  }
+
+  
