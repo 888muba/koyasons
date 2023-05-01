@@ -252,7 +252,7 @@ object-fit:contain ;
     margin-bottom: 0% !important;
 }
 .one{
-    background-image: url(../img/sld1.jpg);
+    background-image: url(../img/home7.jpg);
 }
 .two{
     background-image: url(../img/bl12.jpg);
@@ -466,7 +466,8 @@ background-size: contain;
 }
 .Features-item{
     width: auto;
-    margin: auto;
+    /* margin: auto; */
+    /* background-color: red; */
     
 }
 
@@ -525,13 +526,21 @@ background-size: contain;
     width: 100% !important;
   
 }
+@media screen and (max-width:500px) {
+    .a{
+        background: transparent;
+        width: 50vw !important;
+        height: auto !important;
+            }
+}
 
 @media screen and (max-width:700px) {
     .service-container{        
         background: transparent;
         width:50%;
-
+    
     }
+
      .service-container .service-item {
         width: 100%;
         margin: auto;
@@ -832,9 +841,7 @@ width: 100%;
         flex-wrap: nowrap;
         
     }
-    .dom3 ul li{
-      
-    }
+    
 }
 
 
